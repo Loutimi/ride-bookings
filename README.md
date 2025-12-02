@@ -202,7 +202,6 @@ This project demonstrates:
 - ✅ Strong analytical skills
 - ✅ Ability to translate data into business-driven insights
 - ✅ Understanding of customer experience metrics
-- ✅ Capability to create dashboards for executives
 - ✅ End-to-end project ownership
 
 ---
