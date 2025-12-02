@@ -78,9 +78,8 @@ This analysis provides the insights needed to improve CSAT, reduce churn, and in
 | Category | Tools |
 |----------|-------|
 | **Data Cleaning & Analysis** | Python (Pandas, NumPy) |
-| **Visualization** | Power BI / Tableau / Matplotlib |
+| **Visualization** | Matplotlib |
 | **Notebook** | Jupyter Notebook |
-| **Dashboard** | Power BI |
 | **Documentation** | Markdown, GitHub |
 
 ---
@@ -90,12 +89,7 @@ This analysis provides the insights needed to improve CSAT, reduce churn, and in
 The following steps were completed:
 
 1. Removed null and inconsistent values
-2. Formatted datetime columns
-3. Standardized categorical labels
-4. Extracted hour of day & day of week
-5. Cleaned cancellation reason text
-6. Converted distances, ratings, flags to correct data types
-7. Created derived metrics (pickup_delay_category, cancellation_flag, etc.)
+2. Extracted hour of day & day of week
 
 ---
 
@@ -150,71 +144,15 @@ The following steps were completed:
 - High-value routes
 - Payment method trends
 
----
-
-## 📊 Interactive Dashboard
-
-The dashboard includes:
-
-- Overall KPIs
-- Cancellation breakdown
-- Customer satisfaction indicators
-- Pickup wait time distributions
-- Distance and revenue trends
-- Vehicle type comparison
-- Heatmaps (cancellations by hour)
-
-👉 *[Add link or screenshot here]*
-
----
-
-## 🧠 Customer Satisfaction Model (Optional Advanced Section)
-
-A simple regression/ML model was built to estimate customer rating based on:
-
-- Pickup wait time
-- Trip duration
-- Cancellation history
-- Vehicle type
-- Ride distance
-
-**Outcome:**  
-*Pickup wait time (VTAT) is the strongest predictor of dissatisfaction.*
-
----
-
-## 💼 Key Business Recommendations
-
-1. **Reduce pickup wait time (VTAT) in high-demand locations**  
-   → Improve ratings and reduce cancellations by ~12–18%.
-
-2. **Implement dynamic driver incentive programs**  
-   → Target time periods with high driver-initiated cancellations.
-
-3. **Improve routing allocation for Auto, Go Mini, and Go Sedan**  
-   → These categories show higher cancellation volatility.
-
-4. **Enhance communication during delays**  
-   → Customers cancel less when they are proactively updated.
-
-5. **Introduce customer retention triggers**  
-   → Discounts or priority matching after failed rides.
 
 ---
 
 ## 📁 Repository Structure
 
 ```
-uber-customer-satisfaction-analysis/
+ride-bookings/
 │
-├── data/                  # Raw and cleaned dataset
-├── notebooks/             # Jupyter notebook with full analysis  
-├── dashboards/            # Power BI / Tableau file
-├── images/                # Visualizations for README
-├── src/                   # Python scripts for cleaning & analysis
-│   ├── data_cleaning.py
-│   ├── eda.py
-│   ├── visualization.py
+├── Rides           # Jupyter notebook with full analysis  
 │
 ├── README.md              # This portfolio document
 └── requirements.txt       # Libraries used
@@ -237,10 +175,7 @@ jupyter
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/uber-customer-satisfaction-analysis.git
-
-# Navigate to project directory
-cd uber-customer-satisfaction-analysis
+git clone https://github.com/Loutimi/ride-bookings.git
 
 # Install dependencies
 pip install -r requirements.txt
@@ -277,10 +212,8 @@ This project demonstrates:
 **Rotimi Musa**  
 Data Analyst | Business Intelligence Specialist
 
-- 📧 Email: [your.email@example.com]
-- 💼 LinkedIn: [Your LinkedIn Profile]
-- 🐱 GitHub: [@yourusername]
-- 📊 Portfolio: [Your Portfolio Website]
+- 📧 Email: [loutimi59@gmail.com]
+- 🐱 GitHub: [@loutimi]
 
 ---
 
@@ -292,10 +225,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- Dataset source: [Add source if applicable]
+- Dataset source: [[Dataset](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard/data)]
 - Inspiration from real-world ride-sharing operational challenges
 - Tools and libraries from the open-source community
 
 ---
 
-*Last Updated: December 2024*
+*Last Updated: December 2025*
