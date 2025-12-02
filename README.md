@@ -1,6 +1,6 @@
 #  Improving Customer Satisfaction in Ride-Sharing: A Data-Driven Analysis of Uber Ride Behavior (2024)
 
-## 📊 A Data Analytics Case Study by Rotimi Musa
+## 📊 A Data Analytics Case Study
 
 ---
 
