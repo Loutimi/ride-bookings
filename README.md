@@ -216,12 +216,6 @@ Data Analyst | Business Intelligence Specialist
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🙏 Acknowledgments
 
 - Dataset source: [[Dataset](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard/data)]
@@ -229,5 +223,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tools and libraries from the open-source community
 
 ---
-
-*Last Updated: December 2025*
