@@ -116,7 +116,7 @@ class RideBookings:
                     f"Dataset contains {dup_count} duplicates based on {subset}."
                 )
             else:
-                self.df.drop_duplicates()
+                self.df = self.df.drop_duplicates()
                 self.logger.info(
                     f"{dup_count} exact duplicate rows in the Dataset have been dropped"
                 )
